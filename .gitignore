@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Python
 __pycache__/
 *.pyc
@@ -23,25 +22,5 @@ dist/
 # Secrets & local artifacts
 apisecrets.py
 *.wav
-=======
-# API secrets
-apisecrets.py
-
-# Audio files (no need to upload these)
-*.wav
 *.mp3
-
-# Environment variables (keep your API key safe!)
-.env
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environment
-venv/
-.venv/
-
-# Output files
 *_transcript.txt
->>>>>>> 1eafe823f7d0725999e0b80e0ade0aabb09e6424
