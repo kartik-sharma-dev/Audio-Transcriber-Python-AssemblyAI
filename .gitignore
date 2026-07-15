@@ -24,3 +24,9 @@ apisecrets.py
 *.wav
 *.mp3
 *_transcript.txt
+.venv/
+__pycache__/
+.vscode/
+apisecrets.py
+*.wav
+.env
