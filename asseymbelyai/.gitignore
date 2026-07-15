@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.vscode/
+apisecrets.py
+*.wav
+.env

@@ -14,3 +14,9 @@ record_audiofiles/
 # Node
 node_modules/
 dist/
+.venv/
+__pycache__/
+.vscode/
+apisecrets.py
+*.wav
+.env
