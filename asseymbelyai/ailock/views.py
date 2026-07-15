@@ -13,13 +13,12 @@ import time
 import tempfile
 import wave
 import pyaudio
-from .apisecrets import api_key
 from ailock.models import audiotext, yotubeaudio
 from rest_framework import viewsets
 from rest_framework.decorators import action
 import json
 import yt_dlp
-from .api import save_transcript, upload
+from .api import save_transcript, upload, api_key
 
 
 

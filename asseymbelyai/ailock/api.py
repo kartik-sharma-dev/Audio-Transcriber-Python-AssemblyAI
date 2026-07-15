@@ -1,7 +1,9 @@
+import os
 import requests
 import json
 import time
-from .apisecrets import api_key
+
+api_key = os.environ['ASSEMBLYAI_API_KEY']
 
 
 upload_endpoint = 'https://api.assemblyai.com/v2/upload'

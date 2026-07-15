@@ -14,9 +14,11 @@ record_audiofiles/
 # Node
 node_modules/
 dist/
-.venv/
-__pycache__/
+
+# Editor / OS
 .vscode/
+.DS_Store
+
+# Secrets & local artifacts
 apisecrets.py
 *.wav
-.env
